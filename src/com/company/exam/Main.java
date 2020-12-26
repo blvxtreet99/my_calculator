@@ -29,8 +29,6 @@ public class Main {
                            r_calculator.scan();//берем из класса Calculator метод scan
                            r_calculator.round();}//также и метод round,который задает кол-во цифр после запятой,а затем округляет результат
 
-
-
                 case 3 -> {System.out.println("\nВычисление синуса в градусах\n");//при четвертом пункте меню выводится синус угла (в градусах)
                            Calculator s_calculator = new Calculator();//обьявляем обьект калькулятора
                            s_calculator.sin();}//берем из класса Calculator метод logarithm,который определяет десятичный логарифм
